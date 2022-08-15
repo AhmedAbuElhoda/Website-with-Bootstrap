@@ -1,0 +1,43 @@
+/*start media query*/
+@media (max-width : 766px){
+	.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+padding-bottom: 6px;
+padding-top: 7px;
+}
+	.container{
+		min-height: 0;
+	}
+	.subscribe .form-inline input{
+		width: 50%;
+		margin: 20px auto;
+	}
+		.navbar-fixed-top .navbar-collapse,
+	.navbar-fixed-bottom .navbar-collapse{
+		max-height: none;
+	}
+.dropdown-menu{
+	padding: 10px 0;
+}
+.navbar-nav .open .dropdown-menu > li > a{
+	line-height: 15px;
+}
+
+}
+@media (min-width : 767px) and (max-width: 991px){
+
+}
+@media (min-width : 991px) and (max-width: 1200px){
+	h1{
+		font-size: 85px;
+		color: blue;
+	}
+
+}
+@media (min-width : 1200px){
+	h1{
+		font-size: 100px;
+		color: yellow;
+	}
+/*end media query*/
